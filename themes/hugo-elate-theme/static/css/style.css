@@ -5,6 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Audiowide';
+  src: url("../fonts/Audiowide-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Tw-Cen-MT';
+  src: url("../fonts/Tw-Cen-MT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* =======================================================
 *
 * 	Template Style 
@@ -12,7 +26,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Tw-Cen-MT";
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -40,11 +54,14 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Tw-Cen-MT";
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
+#bold-heading {
+  font-family: 'Audiowide';
+}
 ::-webkit-selection {
   color: #818892;
   background: #f9f6f0;
@@ -258,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Tw-Cen-MT";
   color: rgba(255, 255, 255, 0.5);
   position: relative;
   font-size: 19px;
@@ -315,6 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-size: 30px;
   font-weight: 700;
+  font-family: 'Audiowide', cursive;
   padding-left: 0;
   color: #fff;
 }
