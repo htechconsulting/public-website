@@ -15,7 +15,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    logo = "full_logo_white_trans.png"
+    brand = "HTECH"
     home = "Home"
     services = "Services"
     contact = "Contact"
