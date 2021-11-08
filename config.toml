@@ -24,6 +24,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "HTECH Consulting"
     subtitle = 'Brisbane Cloud Consulting Services'
+    businesslogo = "full_logo_white_trans.png"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -33,25 +34,19 @@ theme = "hugo-elate-theme"
     title = "Analyse"
     description = "Our solution specialists will analyse your business processes to identify areas for improvement."
     url = "#"
-    button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Develop"
     description = "With a focus on Microsoft technologies, a solution will be created to streamline your business process."
     url = "#"
-    button = "Get In Touch"
     icon = "icon-wrench"
-    img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Implement"
     description = "Our team will work with with you to deploy your new solution with the least amount of friction possible.  "
     url = "#"
-    button = "Get In Touch"
     icon = "icon-rocket"
-    img = "img_10.jpg"
 
   # Services section
   [params.services]
@@ -99,8 +94,9 @@ theme = "hugo-elate-theme"
   [params.footer]
     enable = true
     copyright = 'HTECH Consulting'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-      ]
+    abn = '44 944 755 698'
+    #links = [
+    #    ["icon-twitter", "#twitter"],
+    #    ["icon-facebook", "#facebook"],
+    #    ["icon-youtube", "#youtube"]
+    #  ]
