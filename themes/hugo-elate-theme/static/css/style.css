@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   margin-top: 0px;
   top: 0;
-  background-color: #6b7e87;
+  background-color: #fff;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #384347), color-stop(1, #6b7e87));
@@ -359,9 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #384347 0%, #6b7e87 100%);
   background-image: -ms-repeating-linear-gradient(top left, #384347 0%, #6b7e87 100%);
 }
-#fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #6b7e87;
-}
+
 #fh5co-header.navbar-fixed-top .navbar-brand > img {
   display: block;
   width: 100px !important;
@@ -418,14 +416,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-home {
-  background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  background-color: #6b7e87;
+  background-color:rgba(107, 126, 135, 0.20);
   color: #fff;
   overflow: hidden;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
 }
 #fh5co-home .gradient {
   position: absolute;
@@ -434,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .9;
+  opacity: 1;
   -webkit-backface-visibility: hidden;
   background-color: #6b7e87;
   /* IE9, iOS 3.2+ */
@@ -445,6 +443,7 @@ h1, h2, h3, h4, h5, h6 {
   /* IE10+ */
   background-image: repeating-linear-gradient(to bottom right, #384347 0%, #6b7e87 100%);
   background-image: -ms-repeating-linear-gradient(top left, #384347 0%, #6b7e87 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%)
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
@@ -483,6 +482,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
+}
+
+#fh5co-home .businesslogo {
+  width: 100%;
 }
 
 .slant {
@@ -530,9 +533,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 16px;
-  min-height: 300px;
+  min-height: 325px;
   vertical-align: middle;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
   background: #fff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -543,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -587,6 +590,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   font-weight: 400;
 }
+/*
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
   opacity: 0;
   z-index: 9;
@@ -608,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #6b7e87 !important;
   border: 2px solid #6b7e87 !important;
 }
-
+*/
 .watch-video {
   text-align: center;
   width: 100%;
@@ -1259,7 +1263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 75px 0;
   color: #7f7f7f;
   position: relative;
 }
@@ -1289,6 +1293,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 #footer .copyright {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+#footer .abn {
   font-size: 16px;
   margin-bottom: 0px;
   padding-bottom: 0;
@@ -1424,9 +1434,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.row-bottom-padded-lg {
-  padding-bottom: 7em;
-}
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
     padding-bottom: 2em;
