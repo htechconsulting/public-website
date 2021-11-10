@@ -443,7 +443,6 @@ h1, h2, h3, h4, h5, h6 {
   /* IE10+ */
   background-image: repeating-linear-gradient(to bottom right, #384347 0%, #6b7e87 100%);
   background-image: -ms-repeating-linear-gradient(top left, #384347 0%, #6b7e87 100%);
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%)
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
