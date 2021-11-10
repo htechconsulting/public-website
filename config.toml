@@ -22,8 +22,8 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "HTECH Consulting"
-    subtitle = 'Brisbane Cloud Consulting Services - we pretty good'
+    title = "HTECH"
+    subtitle = 'Brisbane Cloud Consulting Services'
 
  
   # Intro section

@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
+
 #bold-heading {
   font-family: 'Audiowide';
 }
@@ -242,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header .navbar-brand {
     color: #ffffff !important;
-    height: 75px;
+    height: 65px;
   }
   #fh5co-header #navbar li a {
     color: rgba(255, 255, 255, 0.75) !important;
@@ -446,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #384347 0%, #6b7e87 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 500px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -485,8 +486,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-home .businesslogo {
-  width: 100%;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  opacity: 0.3;
+  
 }
+
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(80%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
 
 .slant {
   position: absolute;
