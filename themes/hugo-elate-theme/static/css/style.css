@@ -242,6 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header .navbar-brand {
     color: #ffffff !important;
+    height: 75px;
   }
   #fh5co-header #navbar li a {
     color: rgba(255, 255, 255, 0.75) !important;
@@ -267,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header .navbar-brand > img {
     display: block;
-    width: 100px !important;
+    width: 200px !important;
   }
 }
 #fh5co-header .navbar {
@@ -1243,7 +1244,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-nav-toggle {
   position: absolute;
-  top: 2px;
+  top: 12px;
   right: 0px;
   z-index: 21;
   padding: 6px 0 0 0;

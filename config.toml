@@ -23,8 +23,8 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "HTECH Consulting"
-    subtitle = 'Brisbane Cloud Consulting Services'
-    businesslogo = "full_logo_white_trans.png"
+    subtitle = 'Brisbane Cloud Consulting Services - we pretty good'
+
  
   # Intro section
   # Available icons: http://simplelineicons.com/
