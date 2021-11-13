@@ -244,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     color: #ffffff !important;
     height: 65px;
+    padding: 10px 15px !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(255, 255, 255, 0.75) !important;
@@ -337,6 +338,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Audiowide', cursive;
   padding-left: 0;
   color: #fff;
+  padding: 5px 15px
 }
 #fh5co-header .navbar-brand > img {
   display: block;
@@ -364,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-header.navbar-fixed-top .navbar-brand > img {
   display: block;
-  width: 100px !important;
+  width: 200px !important;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(255, 255, 255, 0.75);
